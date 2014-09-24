@@ -1,0 +1,24 @@
+REQUISITOS EM DESENVOLVIMENTO (REUNIÃO DO DIA 3/09)
+
+RF 1.1: Cadastro de questão de múltipla escolha
+RF 1.2: Cadastro de questão de V ou F
+RF 1.3: Cadastro de questão dissertativa
+RF 1.4: Cadastro para resposta de questão de múltipla escolha
+RF 1.5: Cadastro para resposta de questão de V ou F
+RF 1.6: Cadastro para resposta de questão dissertativa
+RF 1.7: Pesquisa de questão
+RF 1.8: Cadastro de Exercício
+
+CAMADAS BÁSICAS DO SISTEMA
+
+- View (HTML + Java Script) para telas relativas às funcionalidades
+- Web (Servlets e Web Services SOAP/REST para acessar modelo e lógica do sistema
+- Model (Fachada com acesso às entidades e à lógica do sistema)
+- Dados (Camada de dados acessada por meio de fachada DAO)
+
+DIVISÃO DE TAREFAS DA EQUIPE
+
+A1 - Criação das páginas HTML relativas a essas atividades (Resp: Paulo e Ryslânia)
+A2 - Criaçõ dos servlets para esses serviços (Resp: Luender e Digenaldo)
+A3 - Criação do ExerciciosDAOFiles (Resp: Patrick e João)
+A4 - Criação do ExerciciosDAOGoogle (Resp: Eduardo, Maxwell, Anderson)
