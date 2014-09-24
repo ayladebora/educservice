@@ -13,6 +13,10 @@ public class Exercicio {
 		setQuestoes(new LinkedList<Questao>());
 	}
 	
+	public void adicionarQuestao(Questao q){
+		this.questoes.add(q);
+	}
+	
 	public String getId() {
 		return id;
 	}

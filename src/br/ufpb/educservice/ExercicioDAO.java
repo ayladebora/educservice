@@ -21,4 +21,8 @@ public interface ExercicioDAO {
 	public QuestaoMultiplaEscolha cadastrarRespostaQuestaoMEPorId(String idExercicio, int alternativaCorreta);
 	public QuestaoVouF cadastrarRespostaQuestaoVouFPorId(String idExercicio, String idQuestao, List<String> respostas);
 	public QuestaoDissertativa cadastrarRespostaQuestaoDissertativaPorId(String idExercicio, String idQuestao,  String solucao);
+	public QuestaoMultiplaEscolha cadastrarQuestaoME(String idExercicio, String enunciado, List<String> alternativas, int alternativaCorreta);
+	public QuestaoVouF cadastrarQuestaoVouF(String idExercicio, List<String> afirmativas, List <String> respostas);
+	public QuestaoDissertativa cadastrarQuestaoDissertativa(String idExercicio, String enunciado,  String solucao);
+
 }

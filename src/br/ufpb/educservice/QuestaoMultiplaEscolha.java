@@ -13,6 +13,30 @@ public class QuestaoMultiplaEscolha extends Questao {
 		this.alternativas = alternativas;
 	}
 
+	public String getEnunciado() {
+		return enunciado;
+	}
+
+	public void setEnunciado(String enunciado) {
+		this.enunciado = enunciado;
+	}
+
+	public List<String> getAlternativas() {
+		return alternativas;
+	}
+
+	public void setAlternativas(List<String> alternativas) {
+		this.alternativas = alternativas;
+	}
+
+	public int getAlternativaCorreta() {
+		return alternativaCorreta;
+	}
+
+	public void setAlternativaCorreta(int alternativaCorreta) {
+		this.alternativaCorreta = alternativaCorreta;
+	}
+
 	@Override
 	public String getDescricao() {
 		return enunciado + alternativas.toString();
