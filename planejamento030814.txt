@@ -1,4 +1,4 @@
-REQUISITOS EM DESENVOLVIMENTO (REUNIÃO DO DIA 3/09)
+REQUISITOS EM DESENVOLVIMENTO (REUNIÃO DO DIA 03/09)
 
 RF 1.1: Cadastro de questão de múltipla escolha
 RF 1.2: Cadastro de questão de V ou F
@@ -19,6 +19,6 @@ CAMADAS BÁSICAS DO SISTEMA
 DIVISÃO DE TAREFAS DA EQUIPE
 
 A1 - Criação das páginas HTML relativas a essas atividades (Resp: Paulo e Ryslânia)
-A2 - Criaçõ dos servlets para esses serviços (Resp: Luender e Digenaldo)
-A3 - Criação do ExerciciosDAOFiles (Resp: Patrick e João)
-A4 - Criação do ExerciciosDAOGoogle (Resp: Eduardo, Maxwell, Anderson)
+A2 - Criação dos servlets para esses serviços (Resp: Luender e Digenaldo)
+A3 - Criação do ExerciciosDAOFiles que implementa ExerciciosDAO usando arquivos (Resp: Patrick e João)
+A4 - Criação do ExerciciosDAOGoogle que implementa ExerciciosDAO usando a API do Google para gravar na planilha do drive os exercícios (Resp: Eduardo, Maxwell, Anderson)
