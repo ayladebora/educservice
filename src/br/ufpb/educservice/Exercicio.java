@@ -7,12 +7,16 @@ public class Exercicio {
 	
 	private String id;
 	private List <Questao> questoes;
+	private List <String> palavrasChave;
 	
 	public Exercicio(String id){
 		this.id = id;
 		setQuestoes(new LinkedList<Questao>());
+		this.palavrasChave = new LinkedList<String>();
 	}
 	
+	
+
 	public void adicionarQuestao(Questao q){
 		this.questoes.add(q);
 	}
@@ -32,6 +36,14 @@ public class Exercicio {
 		this.questoes = questoes;
 	}
 	
+	public List<String> getPalavrasChave() {
+		return palavrasChave;
+	}
+
+
+	public void setPalavrasChave(List<String> palavrasChave) {
+		this.palavrasChave = palavrasChave;
+	}
 
 	
 }
