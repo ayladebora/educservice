@@ -8,6 +8,8 @@ public interface ExercicioDAO {
 	 * @return o Exercicio criado já com seu id.
 	 */
 	public Exercicio criarExercicio ();
+	public Exercicio criarExercicio (List<String> palavrasChave);
+	public void configuraPalavrasChave(String idExercicio);
 	public void apagar (String idExercicio);
 	public void atualizar(Exercicio e);
 	public Exercicio pesquisarExercicioPorId (String idExercicio);
@@ -26,4 +28,5 @@ public interface ExercicioDAO {
 	public QuestaoDissertativa cadastrarQuestaoDissertativa(String idExercicio, String enunciado,  String solucao);
 	public List<Exercicio> pesquisarTodosOsExercicios();
 	public List<Exercicio> pesquisarExerciciosSobre(List<String> palavrasChave);
+	//TODO...
 }
